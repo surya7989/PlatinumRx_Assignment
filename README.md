@@ -19,8 +19,6 @@ Two separate scenarios — Hotel and Clinic management systems.
 - Profit is calculated as `revenue - expenses`, aggregated separately and then joined
 - Used `DENSE_RANK` partitioned by city/state for Q4 and Q5
 
-> SQL written for MySQL. Minor syntax tweaks may be needed for PostgreSQL (e.g., `EXTRACT` instead of `MONTH()`).
-
 ---
 
 ## Phase 2: Spreadsheets
